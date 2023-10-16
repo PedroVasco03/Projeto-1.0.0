@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="480019316339962">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="190119420608435" type="Sprite7" />
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="745583760713499" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="736726951135284">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="196040439768135" type="Sprite7">
+                    <param id="0" name="Object">Sprite3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="836989822394982" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="894788815907971">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="317437040448119" type="Sprite8">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="X co-ordinate">Sprite7.X</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="155919634000202" type="Sprite8">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="835787074131047">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="159616855388959" type="Sprite8">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="X co-ordinate">Sprite7.x</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="976736781563687" type="Sprite8">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="734245918879967">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="342878323073126" type="Sprite8">
+                    <param id="0" name="Object">Sprite7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="790738965255377" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="905176781561988">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="303029839897979" type="Sprite7">
+                    <param id="0" name="Object">Sprite4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="508076509128065" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
